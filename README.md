@@ -1,6 +1,16 @@
-# Vue 3 + Typescript + Vite
+# Boilterplate Vue 3 + Typescript + Vite + Pinia
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+## :hammer: Configured tools:
+- Vue 3
+- Vite
+- Typescript
+- Vue Router
+- Pinia
+- Axios
+- ESLint - Prettier
+
 
 ## Recommended IDE Setup
 

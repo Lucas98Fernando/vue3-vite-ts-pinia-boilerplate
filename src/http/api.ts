@@ -1,7 +1,5 @@
 import axios, { AxiosInstance } from "axios"
 
-const api: AxiosInstance = axios.create({
-    baseURL: "http://urlbase"
+export const api: AxiosInstance = axios.create({
+  baseURL: "https://pokeapi.co/api/v2/"
 })
-
-export default api

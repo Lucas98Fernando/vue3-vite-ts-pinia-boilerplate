@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 import { mapActions, storeToRefs } from 'pinia'
 import { onMounted, ref } from 'vue'
-import Hello from '../../../components/Hello.vue'
-import { useCounterStore } from '../../../store/modules/example'
-import { usePokemonStore } from '../../../store/modules/pokemon'
+import Hello from '@/components/Hello.vue'
+import { useCounterStore } from '@/store/modules/example'
+import { usePokemonStore } from '@/store/modules/pokemon'
 
 const welcome = ref('Boilerplate Vue 3 + Vite + TypeScript + Pinia')
 

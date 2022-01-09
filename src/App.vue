@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link>|
     <router-link to="/about">About</router-link>
   </div>
-  <img alt="Vue logo" src="./assets/logo.png" width="120" />
+  <img alt="Vue logo" src="@/assets/images/logo.png" width="120" />
   <router-view />
 </template>
 
@@ -16,7 +16,6 @@
   color: #2c3e50;
   margin-top: 60px;
 }
-
 #nav {
   padding: 30px;
   a {

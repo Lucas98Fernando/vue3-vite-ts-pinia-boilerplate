@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import Hello from "../components/Hello.vue";
+import Hello from "../../src/components/Hello.vue";
 
 describe("Hello", () => {
   it("check if prop msg match", () => {

@@ -13,10 +13,16 @@
     "sourceMap": true,
     "baseUrl": ".",
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "types": ["vite/client"],
+    "types": ["vite/client", "@types/jest"],
     "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
     "paths": { "@/*": ["src/*"] }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

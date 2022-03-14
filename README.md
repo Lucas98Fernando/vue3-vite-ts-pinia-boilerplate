@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## :hammer: Configured tools:
+## :hammer: Configured development tools:
 
 - [Vue 3](https://v3.vuejs.org/)
 - [Vite](https://vitejs.dev/)
@@ -11,6 +11,10 @@ This template should help get you started developing with Vue 3 and Typescript i
 - [Pinia](https://pinia.vuejs.org/)
 - [Axios](https://axios-http.com/)
 - [ESLint](https://eslint.org/) - [Prettier](https://prettier.io/)
+
+## Unit tests tools
+
+- [Jest](https://jestjs.io/)
 
 ## Recommended IDE Setup
 
